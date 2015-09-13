@@ -1,0 +1,33 @@
+/**
+ *author Bernd Kernbaum, DK3WX
+ *email dk3wx@darc.de 
+ * 
+ *version 0.2
+ *date 2014-10-5
+ *
+*/
+
+Veränderungen
+
+17 Oktober 2014
+cw.c in twotune.c umbenannt
+entfernen der Module soundcard.c und sinwave.c
+
+
+13 Oktober 2014
+Fehler Tune Button gefunden und korrigiert, es wird nun ein echter Sinuston ausgegeben.
+Einfügen eines Zweitone Signals in cw.c
+Aktivieren Zweitone Signal in Setup Register hpsdr
+Entferne PennyLane Umschaltung, da nur Hermes Platine
+
+
+Oktober 2014
+Einfügen eines CW Speed Feldes für den Hermes internen Keyer
+Einfügen eines Setup Registers für den Hermes internen Keyer
+Abschalten des externen Keyers, da Funktion nicht ganz klar
+
+
+September 2014
+Entfernen des Bandscope Displays und seiner Schalter
+Entfernen der Schalter vom Display, nur eine Ansicht PAN/Waterfall bleibt
+aktivieren des internen Hermes Keyers im Datenstrom

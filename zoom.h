@@ -1,0 +1,3 @@
+int zoom;
+
+GtkWidget* buildZoomUI();
